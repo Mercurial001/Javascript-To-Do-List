@@ -1,0 +1,141 @@
+body{
+    margin:0;
+}
+
+#main-header{
+    background-color: rgb(240, 235, 230);
+    color: rgb(97, 94, 94);
+    padding: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.to-do-section{
+    background-color: rgb(233, 230, 227);
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.alert{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(206, 5, 5);
+    visibility: hidden;
+}
+
+.failed{
+    color: rgb(206, 5, 5);
+}
+
+.success{
+    color: rgba(8, 139, 8, 0.836);;
+}
+.list-title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(97, 94, 94);
+}
+
+.line{
+    margin-top: 20px;
+    padding: 0.1px;
+    background-color: rgb(197, 195, 195);
+}
+
+#task-input{
+    padding: 15px;
+    border: none;
+    width:70%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.submit-btn{
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 11px;
+    background-color: rgba(11, 11, 66, 0.562);
+    color: white;
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+}
+
+.submit-btn:active{
+    background-color: rgb(141, 137, 137);
+    color: rgb(223, 219, 219);
+}
+
+#task-input:focus{
+    outline: none;
+}
+
+.task-container{
+    visibility: hidden;
+}
+
+.show-task{
+    visibility: visible;
+}
+
+.task-item{
+    overflow: hidden;
+}
+
+.task-name{
+    font-family: 'Comic Sans MS';
+    color: rgb(51, 50, 50);
+    float: left;
+}
+
+.btns{
+    margin-top: 5px;
+    float: right;
+}
+
+.btns button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 3px;
+    background-color: rgb(255, 251, 251);
+}
+
+.check-btn .fa-pencil{
+    color: rgba(26, 107, 26, 0.836);
+}
+
+.delete-btn .fa-trash-o{
+    color: rgba(226, 17, 17, 0.918);
+}
+
+.clear-btn{
+    border: none;
+    background-color: none;
+    text-align: center;
+    visibility: hidden;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    color: rgba(197, 14, 14, 0.925);
+    background-color: rgb(233, 230, 227);
+}
+
+.clear-btn:hover{
+    color: rgb(110, 8, 8);
+    transition: 0.5s;
+    font-size: 23px;
+}
+
+.clear-btn-visibility{
+    visibility: visible;
+}
+
+.clear-btn-div{
+    text-align: center;
+}

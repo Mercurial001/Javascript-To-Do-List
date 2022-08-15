@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1 class="header-title">Javascript To-Do-List Project</h1>
+    </header>
+
+    <section class="to-do-section">
+        <p class="alert">*Fill the Field*</p>
+        <div class="list-title">
+            <h2>Task Notes</h2>
+        </div>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Enter a Task..">
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+
+        <div class="line"></div>
+        <!-- A Div that represents the Task FORM-->
+        <div class="task-container">
+            <div class="task-list"></div>
+        </div>
+        <div class="clear-btn-div">
+            <button class="clear-btn">Clear Tasks</button>
+        </div>
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
